@@ -32,7 +32,7 @@ for (let i = 0; i < 16; i++) {
   value ? (str += value + "#, ") : (str += value + "!");
 }
 fifteenArray.push(str);
-console.log(fifteenArray);
+console.log(fifteenArray[0]);
 
 // Only change code above this line
 module.exports = { fifteenArray, myGenerator };
